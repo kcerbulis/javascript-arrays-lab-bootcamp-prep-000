@@ -32,5 +32,5 @@ function appendKitten(name){
 
 function prependKitten(name){
  kap = name + kap
- return
+ return kap
 }
