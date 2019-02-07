@@ -29,10 +29,3 @@ function appendKitten(name){
 }
 
 
-var k5 = "Arnold"
-
-
-function prependKitten(name){
- k5 = kittens.slice().unshift(name)
- return k5
-}
