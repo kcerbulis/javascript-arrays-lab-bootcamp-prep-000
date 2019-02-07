@@ -28,6 +28,10 @@ function appendKitten(name){
  return k2
 }
 
+
+
+
+
 function prependKitten(name){
-  
+  k5 = kittens.slice()
 }
