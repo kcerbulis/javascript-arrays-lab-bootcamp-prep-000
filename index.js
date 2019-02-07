@@ -31,5 +31,6 @@ function appendKitten(name){
  kap = kittens.slice() 
 
 function prependKitten(name){
- 
+ kap = name + kap
+ return
 }
