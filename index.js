@@ -23,5 +23,5 @@ function destructivelyPrependKitten(name){
 
 
 function appendKitten(name){
-  kittens.slice(kittens.length())
+  kittens.slice(kittens.length()) + name
 }
