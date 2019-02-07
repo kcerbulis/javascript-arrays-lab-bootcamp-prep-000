@@ -22,7 +22,7 @@ function destructivelyPrependKitten(name){
 }
 
 
-function appendKitten(name){
+function appendKitten(name, k2){
  k2 = kittens.slice() + name
  return k2
 }
