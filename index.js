@@ -29,7 +29,7 @@ function appendKitten(name){
 }
 
 
-
+k5 = "Arnold"
 
 
 function prependKitten(name){
