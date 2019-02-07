@@ -27,3 +27,7 @@ function appendKitten(name){
  k2 = kittens.slice() + "," + name
  return k2
 }
+
+function prependKitten(name){
+  
+}
