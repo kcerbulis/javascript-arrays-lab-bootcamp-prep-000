@@ -28,9 +28,9 @@ function appendKitten(name){
  return k2
 }
 
- kap = kittens.slice() 
+var kap = kittens.slice() 
 
 function prependKitten(name){
- kap = name + kap
+ kap.unshift(name)
  return kap
 }
