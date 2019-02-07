@@ -28,6 +28,8 @@ function appendKitten(name){
  return k2
 }
 
+ kap = kittens.slice() 
+
 function prependKitten(name){
-  return name.concat(kittens)
+ 
 }
