@@ -34,3 +34,10 @@ function prependKitten(name){
  kap.unshift(name)
  return kap
 }
+
+var nap = kittens.slice()
+
+function removeLastKitten(){
+  nap.pop()
+  return nap
+}
