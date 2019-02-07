@@ -21,8 +21,9 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
 }
 
+var name = "Broom"
 
-function appendKitten(name, k2){
+function appendKitten(name){
  k2 = kittens.slice() + name
  return k2
 }
