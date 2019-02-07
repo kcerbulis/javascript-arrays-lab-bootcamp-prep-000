@@ -41,3 +41,10 @@ function removeLastKitten(){
   nap.pop()
   return nap
 }
+
+  var fap = kittens.slice()
+  
+function removeFirstKitten(){
+  fap.shift()
+  return fap
+}
