@@ -33,5 +33,6 @@ function appendKitten(name){
 
 
 function prependKitten(name){
-  kittens.slice().unshift(name)
+ k5 = kittens.slice().unshift(name)
+ return k5
 }
